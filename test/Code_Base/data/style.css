@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columnLateral {
+    width: 15%;
+    min-width: 300px;
+}
+
+.columnCetral {
+    width: 70%;
+    min-width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#joy2Div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+#joy3Div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+}
+
+#servoMoteur {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+}
+
+#joystick {
+    border: 1px solid #FF0000;
+}
+
+#joystick2 {
+    border: 1px solid #0000FF;
+}
